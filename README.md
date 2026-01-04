@@ -14,13 +14,14 @@ data quality issues in raw transactional systems.
 - Deliver executive-level insights and actionable recommendations
 
 ## Data Overview
-The analysis uses three raw datasets:
+The analysis uses three raw datasets generated to simulate real-world production data:
+
 - Orders (transactions)
 - Customers
 - Products
 
-The data intentionally contains real-world quality issues such as incorrect data types, 
-duplicates, missing values, and invalid records.
+The datasets are **synthetic but designed to closely mirror real-life business data**, including common production issues such as incorrect data types, duplicate records, missing values, inconsistent categories, invalid transactions, and margin erosion patterns.
+
 
 ## Approach
 1. Performed raw data audit to assess data quality
