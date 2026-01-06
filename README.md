@@ -40,3 +40,33 @@ The datasets are **synthetic but designed to closely mirror real-life business d
 - Power BI
 - GitHub for version control and documentation
 
+
+## Data Audit & Quality Assessment
+
+A comprehensive raw data audit was performed prior to cleaning and transformation to understand data quality risks and guide staging logic.
+
+### Orders (raw.orders)
+- One header row ingested as data due to CSV import behavior
+- No null or duplicate order IDs observed
+- Missing values present in order_date, quantity, price, and discount_amount
+- Negative quantity values detected
+- Inconsistent date formats in order_date
+- Categorical inconsistencies in order_status and region due to casing/encoding
+- Referential integrity with customers and products is intact
+
+### Customers (raw.customers)
+- No duplicate customer IDs
+- Missing values in signup_date and customer_name
+- Multiple signup_date formats
+- City and region fields contain casing/encoding inconsistencies
+
+### Products (raw.products)
+- No duplicate product IDs
+- Missing values in cost_price
+- Negative cost_price values detected
+- Category field contains casing/encoding inconsistencies
+
+No data was modified during the audit phase.  
+All issues were addressed explicitly in the staging layer.
+
+
