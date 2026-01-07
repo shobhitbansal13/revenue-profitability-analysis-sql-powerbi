@@ -101,6 +101,25 @@ Schemas audited:
 -- category column contains casing / encoding inconsistencies,
 -- causing logically identical categories to appear distinct.
 
+/* =========================================================
+   ADDITIONAL AUDIT FINDINGS (DISCOVERED DURING STAGING)
+   =========================================================
+
+   - Invisible whitespace characters (tabs, newlines, carriage returns)
+     were present across multiple fields, including identifiers and
+     numeric columns.
+
+   - These values bypassed simple blank checks and caused casting
+     inconsistencies.
+
+   - Issue was addressed in the staging layer using controlled
+     normalization:
+       TRIM + NULLIF + targeted REPLACE operations.
+
+   - No raw data was modified as part of this correction.
+*/
+
+
 --------------------------------------------------------
 -- END OF RAW AUDIT
 --------------------------------------------------------
