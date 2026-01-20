@@ -40,7 +40,9 @@ Provides a high-level snapshot of business health.
 Used to identify structural profitability patterns over time.
 
 📸 Screenshot:  
-`dashboard_screenshots/trend_analysis.png`
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shobhitbansal13/revenue-profitability-analysis-sql-powerbi/6f5ef379f4162cf84fe01d3e4d8c66ee892c32dd/assets/Trend%20Analysis.png" width="800" alt="Trend Analysis">
+</p>
 
 ---
 
