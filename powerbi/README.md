@@ -103,19 +103,15 @@ The Power BI model is built around:
 
 | File | Description |
 |----|-------------|
-| `revenue_profitability_dashboard.pbix` | Power BI dashboard file (optional) |
 | `dashboard_screenshots/` | Dashboard preview images |
 | `data_model.png` | Power BI model diagram |
 | `README.md` | This documentation |
 
 ---
 
-## 🔗 Live Dashboard (Optional)
+## 🔗 Dashboard
 
-If published to Power BI Service:
 
-> **Live Dashboard:**  
-> *(Add public link here if available)*
 
 ---
 
