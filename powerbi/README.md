@@ -26,7 +26,9 @@ It is **not operational reporting**, but a decision-support dashboard.
 Provides a high-level snapshot of business health.
 
 📸 Screenshot:  
-`dashboard_screenshots/executive_overview.png`
+<p align="center">
+  <img src="assets/Executive Overview.png" width="800">
+</p>
 
 ---
 
