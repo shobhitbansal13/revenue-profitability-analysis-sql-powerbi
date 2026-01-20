@@ -111,7 +111,9 @@ The Power BI model is built around:
 
 ## 🔗 Dashboard
 
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shobhitbansal13/revenue-profitability-analysis-sql-powerbi/42703aa78cd101202348eee1c5e69d595be188f8/assets/dashboard.png" width="800" alt="Main Dashboard Overview">
+</p>
 
 ---
 
