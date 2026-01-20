@@ -222,27 +222,6 @@ A dedicated **Date dimension** ensures consistent filtering across all visuals.
 
 ---
 
-## 📁 Repository Structure
-
-```text
-revenue-profitability-analysis-sql-powerbi/
-│
-├── data/
-│   └── raw/
-│
-├── sql/
-│   ├── raw_audit.sql
-│   ├── staging_views.sql
-│   └── analytics_views.sql
-│
-├── powerbi/
-│   └── revenue_profitability_dashboard.pbix
-│
-├── README.md
-```
-
----
-
 ## 🛠️ Tools Used
 
 * **SQL (MySQL)** – data auditing, cleaning, and analytics modeling
