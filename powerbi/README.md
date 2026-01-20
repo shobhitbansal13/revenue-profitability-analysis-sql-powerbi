@@ -53,7 +53,9 @@ Used to identify structural profitability patterns over time.
 Highlights products contributing to losses despite volume.
 
 📸 Screenshot:  
-`dashboard_screenshots/product_profitability.png`
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shobhitbansal13/revenue-profitability-analysis-sql-powerbi/d1ee17c92052eb9641016de2fe7a5f88754fceee/assets/Product%20Profitability.png" width="800" alt="Product Profitability Analysis">
+</p>
 
 ---
 
@@ -64,7 +66,9 @@ Highlights products contributing to losses despite volume.
 Identifies geographic concentration of losses.
 
 📸 Screenshot:  
-`dashboard_screenshots/regional_performance.png`
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shobhitbansal13/revenue-profitability-analysis-sql-powerbi/d1ee17c92052eb9641016de2fe7a5f88754fceee/assets/Regional%20profitability.png" width="800" alt="Regional Profitability Analysis">
+</p>
 
 ---
 
@@ -75,7 +79,9 @@ Identifies geographic concentration of losses.
 Shows discount-driven margin erosion.
 
 📸 Screenshot:  
-`dashboard_screenshots/discount_margin_analysis.png`
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shobhitbansal13/revenue-profitability-analysis-sql-powerbi/d1ee17c92052eb9641016de2fe7a5f88754fceee/assets/Discount%20vs%20margin.png" width="800" alt="Discount vs Margin Analysis">
+</p>
 
 ---
 
@@ -87,7 +93,9 @@ The Power BI model is built around:
 - all financial metrics originating from SQL
 
 📸 Data model screenshot:  
-`data_model.png`
+<p align="center">
+  <img src="https://raw.githubusercontent.com/shobhitbansal13/revenue-profitability-analysis-sql-powerbi/d1ee17c92052eb9641016de2fe7a5f88754fceee/assets/data%20model.png" width="800" alt="Power BI Data Model">
+</p>
 
 ---
 
