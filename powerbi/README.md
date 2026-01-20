@@ -27,7 +27,7 @@ Provides a high-level snapshot of business health.
 
 📸 Screenshot:  
 <p align="center">
-  <img src="assets/Executive Overview.png" width="800">
+  <img src="https://github.com/shobhitbansal13/revenue-profitability-analysis-sql-powerbi/blob/d155cf9980005dbdcab321c35b4ee88f2377282d/assets/Executive%20Overview.png" width="800">
 </p>
 
 ---
